@@ -1,0 +1,14 @@
+<strong>Olá, {{ deliveryman }}</strong>
+<p>Você tem uma entrega cancelada!</p>
+<p>Veja os detalhes abaixo:</p>
+<p>
+  <strong>Cliente: </strong> {{ recipient }} <br />
+  <strong>Endereço: </strong> {{ address_name }}, {{ address_number }} {{ address_complement }} <br />
+  <strong>Cep: </strong> {{ address_cep }} <br />
+  <strong>Cidade: </strong> {{ address_city }} <br />
+  <strong>Estado: </strong> {{ address_state }} <br />
+  <br />
+  <small>
+    Favor devolver a encomenda em nossa sede.
+  </small>
+</p>
